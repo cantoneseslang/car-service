@@ -1,3 +1,4 @@
+// components/booking-form.tsx
 "use client"
 
 import { useState, useCallback } from "react"
@@ -14,6 +15,7 @@ import { ReviewSection } from "./review-section"
 import { ReviewForm } from "./review-form"
 import { ServiceDetails } from "./service-details"
 import Image from "next/image"
+import { FloatingTranslateButton } from "@/components/floating-translate-button" // Import the FloatingTranslateButton
 
 const DESTINATIONS = [
   "深セン宝安区",
@@ -392,6 +394,7 @@ export default function BookingForm() {
           <ServiceDetails />
         </div>
       </div>
+      <FloatingTranslateButton /> {/* Add the FloatingTranslateButton here */}
     </div>
   )
 }
