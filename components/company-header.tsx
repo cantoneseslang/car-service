@@ -25,9 +25,9 @@ export function CompanyHeader() {
           <Image
             src="/images/life-support-icon-512x512.png"
             alt="Company Logo"
-            width={420}
-            height={200}
-            className="h-70 w-40"
+            width={220}
+            height={100}
+            className="h-50 w-40"
           />
           <h1 className="text-2xl font-bold">HCJP CarAgency</h1>
         </div>

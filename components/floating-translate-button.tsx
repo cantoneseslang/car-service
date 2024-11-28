@@ -8,7 +8,7 @@ export function FloatingTranslateButton() {
     e.preventDefault()
     // 小さめのウィンドウを開く（幅800px、高さ600px）
     window.open(
-      "http://x.gd/6zKCg",
+      "https://x.gd/ZpvYJ",
       "translationWindow",
       "width=800,height=600,resizable=yes,scrollbars=yes"
     )
