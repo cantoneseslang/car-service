@@ -27,7 +27,7 @@ export function CompanyHeader() {
             alt="Company Logo"
             width={420}
             height={200}
-            className="h-70 w-40"
+            className="h-80 w-40"
           />
           <h1 className="text-2xl font-bold">HCJP CarAgency</h1>
         </div>
